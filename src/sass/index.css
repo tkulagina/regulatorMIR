@@ -26,6 +26,7 @@ ul {
 h1,
 h2,
 h3,
+h4,
 p {
   margin-top: 0;
   margin-bottom: 0;
@@ -83,4 +84,28 @@ img {
   -webkit-clip-path: inset(50%);
           clip-path: inset(50%);
   margin: -1px;
+}
+
+.section_lable {
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.wrap {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+@media screen and (min-width: 1440px) {
+  .section_lable {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+  .wrap {
+    padding-top: 120px;
+    padding-bottom: 60px;
+  }
 }/*# sourceMappingURL=index.css.map */
