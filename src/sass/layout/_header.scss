@@ -19,14 +19,18 @@
 
 .language-switcher {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    
     width: 60px;
     height: 32px;
     border: 1px solid var(--main-color);
-    border-radius: 50%;
+    border-radius: 32px;
     
 }
 
 .english-switcher {
+    margin-right: 4px;
     width: 24px;
     height: 24px;
     border-radius: 50%;
@@ -169,7 +173,7 @@
     display: none;
   }
     .container-header {        
-        padding-top: 8px;    
+        padding-top:64px;    
     }
     
     .logo-img {
@@ -177,6 +181,15 @@
       height: 88px;
       margin-right: 0;
     }
+
+    .language-switcher {     
+      width: 72px;
+      height: 40px;      
+  }
+
+    .english-switcher {
+      margin-right: 8px;      
+  }
 
     .navigation {
       display: flex;
