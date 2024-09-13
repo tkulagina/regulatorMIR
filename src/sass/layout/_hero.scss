@@ -1,7 +1,9 @@
-/*.hero {
-    background-image: var(--background-image);
+.hero {
+    background-image: url(../images/hero/underlay-desktop-2x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
-*/
+
 .hero-img {
     margin: 0 auto;
     margin-bottom: 40px;

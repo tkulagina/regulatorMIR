@@ -18,15 +18,12 @@
         transition: background-color var(--time-duration) var(--timing-function)
     }
 
-  .cta_btn:hover {
-    color: var(--main-color);
-    background-color: var(--hover-color);
-  }
-
+  .cta_btn:hover,
   .cta_btn:focus {
     color: var(--main-color);
     background-color: var(--hover-color);
   }
+
 
 @include desktop {
     .cta_btn {
