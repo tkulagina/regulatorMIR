@@ -6,19 +6,9 @@
     text-align: center;
 }
 
-.wrap {
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
-
 @include desktop {
     .section_lable {         
         font-size: 40px;        
         line-height: 1.2;
-    }
-    
-    .wrap {        
-        padding-top: 120px;
-        padding-bottom: 60px;        
-    }
+    }    
 }

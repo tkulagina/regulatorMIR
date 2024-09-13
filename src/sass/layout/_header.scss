@@ -156,17 +156,24 @@
   .menu-container, .mobile-menu-open-btn {
     display: none;
   }
-    .container-header {        
+    .container-header {
+      position: relative;
+      display: flex;
+  
+  justify-content: flex-start;        
         padding-top:64px;    
     }
     
     .logo-img {
       width: 132px;
       height: 88px;
-      margin-right: 0;
+      margin-right: 537px;
     }
 
-    .language-switcher {     
+    .language-switcher {
+      position: absolute;
+      top: 95px;
+      right: 5px;    
       width: 72px;
       height: 40px;      
   }
@@ -187,7 +194,9 @@
         display: block;
         margin-right: 28px;
         padding-top: 32px;
-        padding-bottom: 13px;
+        padding-bottom: 13px; 
+        
+        transition: color var(--time-duration) var(--timing-function);   
     }
     
     .nav_item:last-child {
@@ -203,7 +212,7 @@
     
     .nav_item .link:hover,
     .nav_item .link:focus {
-        color: var(--accent-color);
+        color: var(--hover-color);
     }
    
 }
