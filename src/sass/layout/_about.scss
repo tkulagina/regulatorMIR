@@ -17,10 +17,7 @@
 }
 
 @include desktop {  
-    .about > .section_lable {
-        width: 141px;
-    }
-      
+         
     .about-list {
     display: flex;
     justify-content: space-between;
