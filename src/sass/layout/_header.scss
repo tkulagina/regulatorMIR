@@ -105,7 +105,7 @@
 
 .menu-container__bottom {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  
   align-items: center;
   margin-bottom: 80px;
   padding-left: 28px;
@@ -146,8 +146,9 @@
     background-color: transparent;
   }
   
-  .mobile-cta-btn {    
-        margin-top: 235px;        
+  .mobile-cta-btn {
+      margin-left: 0;    
+      margin-top: 235px;        
     }
 
  
@@ -160,8 +161,8 @@
       position: relative;
       display: flex;
   
-  justify-content: flex-start;        
-        padding-top:64px;    
+      justify-content: flex-start;        
+      padding-top:64px;    
     }
     
     .logo-img {
