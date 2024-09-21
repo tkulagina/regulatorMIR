@@ -3,9 +3,7 @@
 }
 
 .project-section_title {
-    margin-bottom: 40px;
-    font-size: 20px;
-    line-height: 1.65;
+    font-size: 22px;
 }
 
 .project-list {
@@ -23,13 +21,6 @@
 .project-list_icon {
     margin-left: 144px;
     margin-bottom: 24px;
-}
-
-.project_name {
-    margin-bottom: 16px;
-    font-size: 24;
-    line-height: 1.43;
-    font-weight: 600;
 }
 
 .project_type {
@@ -62,11 +53,7 @@
     }
     
     .project-section_title {
-        margin-left: 200px;
-        margin-bottom: 80px;
-        font-size: 36px;
-        line-height: 1.11;
-        font-weight: 400;
+        margin-left: 200px;        
     }
     
     .project-list {        
@@ -92,12 +79,7 @@
         width: 64px;
         height: 64px;
     }
-    
-    .project_name {
-        font-size: 32;
-        line-height: 1.25;        
-    }
-    
+        
     .project_type {        
         font-size: 18px;
         line-height: 1.28;
@@ -114,6 +96,6 @@
     }
 
     .project .cta_btn {
-        margin-left: 500px;
+        margin-left: 496px;
     }
 }

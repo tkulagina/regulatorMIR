@@ -1,9 +1,9 @@
 .advantages-list {
     display: flex;
-        flex-wrap: wrap;
-        flex-basis: calc(100% / 2);
-        margin-top: -16px;
-        margin-left: -16px;
+    flex-wrap: wrap;
+    flex-basis: calc(100% / 2);
+    margin-top: -16px;
+    margin-left: -16px;
 }
 
 .advantages-list_item:last-child {
