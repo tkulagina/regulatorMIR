@@ -1,0 +1,28 @@
+.gallery .close-line {
+  width: 100px;
+}
+
+.mySlides {
+  width: 258px;
+  height: 172px;
+  padding: 4px 4px;
+  border: 1px solid var(--main-color);
+  border-radius: 12px;
+}
+
+.gallery_img-wrap {
+  width: 250px;
+  height: 164px;
+ 
+  border-radius: 8px;
+}
+
+.gallery_img {
+  width: 250px;
+  border-radius: 8px;
+}
+
+.gallery_img-text {
+  font-size: 16px;
+  line-height: 1.43;
+}
