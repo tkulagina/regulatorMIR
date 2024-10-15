@@ -1,7 +1,7 @@
 .cta_btn {
     margin-left: 78px;
-    min-width: 173px;
-    height: 48px;
+    padding: 14px 56px;
+    
     border: 2px solid var(--main-color);
     border-radius: 36px;
     
@@ -9,6 +9,7 @@
     font-size: 14px;        
     line-height: 1.43;
     color: var(--main-color);
+    text-decoration: none;
 
     text-align: center;
     cursor: pointer;
@@ -29,8 +30,7 @@
 @include desktop {
     .cta_btn {
         margin-left: 0;
-        min-width: 224px;
-        height: 72px;        
+        padding: 20px 64px;        
         border-radius: 36px;
     
         font-size: 20px;        
