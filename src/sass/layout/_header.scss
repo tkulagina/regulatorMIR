@@ -31,19 +31,16 @@
     
 }
 
+.english-switcher,
+.ukrainian-switcher  {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
 .english-switcher {
     margin-right: 4px;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
 }
-
-.ukrainian-switcher {
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-}
-
 
 .menu-container {
   position: fixed;
@@ -168,7 +165,7 @@
     .logo-img {
       width: 132px;
       height: 88px;
-      margin-right: 537px;
+      margin-right: 480px;
     }
 
     .language-switcher {
